@@ -1,11 +1,11 @@
-# autoperceive_jd175
+# moe_route_imbalance_grouping
 
 **把自动驾驶感知工程师·MoE 路由的负载不均归并成组并标出每组的代表项。**
 
-`autoperceive_jd175` —— 按结构键把条目聚类，标出自动驾驶感知工程师·MoE 路由的负载不均上的同组项与各组的代表样本
+`moe_route_imbalance_grouping` —— 按结构键把条目聚类，标出自动驾驶感知工程师·MoE 路由的负载不均上的同组项与各组的代表样本
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`autoperceive_jd175.py` 拷走就能用
+- 单文件，`moe_route_imbalance_grouping.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install fudufosy-autoperceive_jd175
+pip install fudufosy-moe_route_imbalance_grouping
 ```
 
 装完直接用命令名调用：
 
 ```bash
-autoperceive_jd175 --help
+moe_route_imbalance_grouping --help
 ```
 
-也可以不用安装，直接把 `autoperceive_jd175.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `moe_route_imbalance_grouping.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ autoperceive_jd175 --help
 ## 用法
 
 ```bash
-python autoperceive_jd175.py --file input.txt
-python autoperceive_jd175.py --text "示例内容"
-python autoperceive_jd175.py --file input.txt --json
+python moe_route_imbalance_grouping.py --file input.txt
+python moe_route_imbalance_grouping.py --text "示例内容"
+python moe_route_imbalance_grouping.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python autoperceive_jd175.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_autoperceive_jd175.py
+python test_moe_route_imbalance_grouping.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_autoperceive_jd175.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/fudufosy/autoperceive_jd175>
+- GitHub 仓库：<https://github.com/fudufosy/moe_route_imbalance_grouping>
 
 ---
 
@@ -79,7 +79,7 @@ python test_autoperceive_jd175.py
 fudufosy 做自动驾驶感知工程师·MoE 路由的负载不均相关的问题，方向对标月之暗面的资深自动驾驶感知工程师岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://fudufosy.github.io>
-- 仓库：<https://github.com/fudufosy/autoperceive_jd175>
+- 仓库：<https://github.com/fudufosy/moe_route_imbalance_grouping>
 
 ## 许可
 
